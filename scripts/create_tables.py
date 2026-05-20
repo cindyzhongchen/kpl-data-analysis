@@ -1,20 +1,20 @@
 import sqlite3
-from pathlib import Path                                            # Python 处理文件路径的工具
+from pathlib import Path                                            
 
 
 def main() -> None:
     # Make sure the data folder exists
-    project_root = Path(__file__).resolve().parent.parent           # 找到项目路径
-    data_dir = project_root / "data"                                # 创建 data 文件夹（如果没有）
+    project_root = Path(__file__).resolve().parent.parent           # find project path
+    data_dir = project_root / "data"                                # create folder
     data_dir.mkdir(exist_ok=True)
 
-    db_path = data_dir / "kpl.db"                                   # 数据库文件路径
+    db_path = data_dir / "kpl.db"                                  
 
-    conn = sqlite3.connect(db_path)                                 # 数据库连接
-    cursor = conn.cursor()                                          # 执行 SQL 命令的工具
+    conn = sqlite3.connect(db_path)                                 # connect data base
+    cursor = conn.cursor()                                          
 
     # Turn on foreign key support
-    cursor.execute("PRAGMA foreign_keys = ON;")                     # 如果 foreign key 不合法，就报错
+    cursor.execute("PRAGMA foreign_keys = ON;")                     
 
     # Create tables
     cursor.executescript(
