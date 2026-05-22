@@ -17,7 +17,7 @@ def main() -> None:
     cursor.execute("PRAGMA foreign_keys = ON;")                     
 
     # Create tables
-    cursor.executescript(
+    cursor.executescript (
         """
         CREATE TABLE IF NOT EXISTS seasons (
             season_id INTEGER PRIMARY KEY,
@@ -31,14 +31,14 @@ def main() -> None:
         );
 
         CREATE TABLE IF NOT EXISTS players (
-            player_id INTEGER PRIMARY KEY,
-            player_name TEXT NOT NULL,
-            role TEXT CHECK (role IN ('top', 'jungle', 'mid', 'adc', 'support'))
+            player_id INTEGER PRIMARY KEY AUTOINCREMENT,
+            player_name TEXT NOT NULL UNIQUE,
+            role TEXT CHECK (role IN ('对抗路', '打野', '中路', '发育路', '游走'))
         );
 
         CREATE TABLE IF NOT EXISTS heroes (
             hero_id INTEGER PRIMARY KEY,
-            hero_name TEXT NOT NULL UNIQUE,
+            hero_name TEXT NOT NULL UNIQUE
         );
 
         CREATE TABLE IF NOT EXISTS matches (
@@ -57,7 +57,7 @@ def main() -> None:
         );
 
         CREATE TABLE IF NOT EXISTS games (
-            game_id INTEGER PRIMARY KEY,
+            game_id TEXT PRIMARY KEY,
             match_id INTEGER NOT NULL,
             game_number INTEGER NOT NULL,
             winner_team_id INTEGER NOT NULL,
@@ -67,7 +67,7 @@ def main() -> None:
         );
 
         CREATE TABLE IF NOT EXISTS player_stats (
-            game_id INTEGER NOT NULL,
+            game_id TEXT NOT NULL,
             player_id INTEGER NOT NULL,
             team_id INTEGER NOT NULL,
             hero_id INTEGER NOT NULL,
