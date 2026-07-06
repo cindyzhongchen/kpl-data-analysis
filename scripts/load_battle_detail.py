@@ -27,21 +27,12 @@ def get_or_create_player(cursor, player_name: str, role: str | None) -> int:
     )
     return cursor.lastrowid
 
-
-def main() -> None:
-    project_root = Path(__file__).resolve().parent.parent
-    db_path = project_root / "data" / "kpl.db"
-    json_path = project_root / "data" / "battle_detail.json"
-
-    conn = sqlite3.connect(db_path)
-    cursor = conn.cursor()
-    cursor.execute("PRAGMA foreign_keys = ON;")
-
+# loads JSON files and inserts
+def load_one_battle(cursor, json_path: Path, match_id: int) -> None:
     with open(json_path, "r", encoding="utf-8") as f:
         payload = json.load(f)
 
     data = payload["data"]
-    match_id = 2026031402
 
     teams = parse_team_rows(data)
     game = parse_game_row(data, match_id)
@@ -148,10 +139,27 @@ def main() -> None:
             ),
         )
 
+def main() -> None:
+    project_root = Path(__file__).resolve().parent.parent
+    db_path = project_root / "data" / "kpl.db"
+    # json_path = project_root / "data" / "battle_detail.json"
+    raw_battles_dir = project_root / "data" / "raw_battles"
+    json_files = list(raw_battles_dir.glob("*.json"))
+
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+    cursor.execute("PRAGMA foreign_keys = ON;")
+
+    match_id = 2026031402
+
+    for json_path in json_files:
+        print(f"Loading {json_path.name}...")
+        load_one_battle(cursor, json_path, match_id)
+
     conn.commit()
     conn.close()
 
-    print("Battle detail loaded into SQLite successfully.")
+    print(f"Loaded {len(json_files)} battle files into SQLite successfully.")
 
 
 if __name__ == "__main__":
