@@ -1,5 +1,6 @@
 import json
 import sqlite3
+import sys
 from pathlib import Path
 
 from parse_battle_detail import (
@@ -139,18 +140,53 @@ def load_one_battle(cursor, json_path: Path, match_id: int) -> None:
             ),
         )
 
+# def main() -> None:
+#     project_root = Path(__file__).resolve().parent.parent
+#     db_path = project_root / "data" / "kpl.db"
+#     # json_path = project_root / "data" / "battle_detail.json"
+#     raw_battles_dir = project_root / "data" / "raw_battles"
+#     json_files = list(raw_battles_dir.glob("*.json"))
+
+#     conn = sqlite3.connect(db_path)
+#     cursor = conn.cursor()
+#     cursor.execute("PRAGMA foreign_keys = ON;")
+
+#     match_id = 2026031402
+
+#     for json_path in json_files:
+#         print(f"Loading {json_path.name}...")
+#         load_one_battle(cursor, json_path, match_id)
+
+#     conn.commit()
+#     conn.close()
+
+#     print(f"Loaded {len(json_files)} battle files into SQLite successfully.")
 def main() -> None:
+    if len(sys.argv) != 2:
+        print("Usage: python scripts/load_battle_detail.py <match_id>")
+        return
+
+    match_id = int(sys.argv[1])
+
     project_root = Path(__file__).resolve().parent.parent
     db_path = project_root / "data" / "kpl.db"
-    # json_path = project_root / "data" / "battle_detail.json"
-    raw_battles_dir = project_root / "data" / "raw_battles"
-    json_files = list(raw_battles_dir.glob("*.json"))
+
+    match_dir = (
+        project_root
+        / "data"
+        / "raw_battles"
+        / str(match_id)
+    )
+
+    json_files = sorted(match_dir.glob("*.json"))
+
+    if not json_files:
+        print(f"No battle JSON files found for match {match_id}")
+        return
 
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     cursor.execute("PRAGMA foreign_keys = ON;")
-
-    match_id = 2026031402
 
     for json_path in json_files:
         print(f"Loading {json_path.name}...")
