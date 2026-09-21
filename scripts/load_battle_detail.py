@@ -41,6 +41,9 @@ def load_one_battle(cursor, json_path: Path, match_id: int) -> None:
     heroes = parse_hero_rows(data)
     player_stats = parse_player_stats_rows(data)
 
+    team_a_id = teams[0]["team_id"]
+    team_b_id = teams[1]["team_id"]
+
     # Insert teams
     for team in teams:
         cursor.execute(
@@ -89,12 +92,12 @@ def load_one_battle(cursor, json_path: Path, match_id: int) -> None:
         """,
         (
             match_id,
-            1,
-            "2026-03-14",
-            10001,
-            10008,
-            game["winner_team_id"],
-            5,
+            1,                  # TODO: derive season_id
+            "2026-03-14",       # TODO: derive actual match date or not
+            team_a_id,
+            team_b_id,
+            game["winner_team_id"], # TODO: replace with match winner
+            5,                  # only dealing with bo5 rn
             None,
         ),
     )
@@ -140,27 +143,6 @@ def load_one_battle(cursor, json_path: Path, match_id: int) -> None:
             ),
         )
 
-# def main() -> None:
-#     project_root = Path(__file__).resolve().parent.parent
-#     db_path = project_root / "data" / "kpl.db"
-#     # json_path = project_root / "data" / "battle_detail.json"
-#     raw_battles_dir = project_root / "data" / "raw_battles"
-#     json_files = list(raw_battles_dir.glob("*.json"))
-
-#     conn = sqlite3.connect(db_path)
-#     cursor = conn.cursor()
-#     cursor.execute("PRAGMA foreign_keys = ON;")
-
-#     match_id = 2026031402
-
-#     for json_path in json_files:
-#         print(f"Loading {json_path.name}...")
-#         load_one_battle(cursor, json_path, match_id)
-
-#     conn.commit()
-#     conn.close()
-
-#     print(f"Loaded {len(json_files)} battle files into SQLite successfully.")
 def main() -> None:
     if len(sys.argv) != 2:
         print("Usage: python scripts/load_battle_detail.py <match_id>")

@@ -74,7 +74,7 @@ def parse_player_stats_rows(data: dict) -> list[dict]:
 
         rows.append({
             "game_id": game_id,
-            "player_name": p["player_name"],   # later we'll map this to player_id
+            "player_name": p["player_name"],   # TODO: later we'll map this to player_id
             "team_id": int(p["team_id"]),
             "hero_id": int(p["hero_id"]),
             "side": "blue" if camp == 1 else "red",
@@ -90,7 +90,6 @@ def parse_player_stats_rows(data: dict) -> list[dict]:
 
 
 def main() -> None:
-    # put your raw JSON in data/battle_detail.json first
     project_root = Path(__file__).resolve().parent.parent   # 项目根目录
     json_path = project_root / "data" / "battle_detail.json"
 
