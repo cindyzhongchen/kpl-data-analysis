@@ -15,16 +15,16 @@ def parse_team_rows(data: dict) -> list[dict]:
     return rows
 
 
-def parse_game_row(data: dict, match_id: int) -> dict:
+def parse_battle_row(data: dict, match_id: int) -> dict:
     win_camp = data["win_camp"]
     winner_team_id = int(data[f"camp{win_camp}"]["team_id"])
 
     return {
-        "game_id": data["battle_id"],
+        "battle_id": data["battle_id"],
         "match_id": match_id,
-        "game_number": data["battle_seq"],
+        "battle_number": data["battle_seq"],
         "winner_team_id": winner_team_id,
-        "duration": data["game_duration"] // 1000,  # seconds
+        "duration": data["battle_duration"] // 1000,  # seconds
     }
 
 
@@ -66,14 +66,14 @@ def parse_hero_rows(data: dict) -> list[dict]:
 
 def parse_player_stats_rows(data: dict) -> list[dict]:
     rows = []
-    game_id = data["battle_id"]
+    battle_id = data["battle_id"]
     win_camp = data["win_camp"]
 
     for p in data["battle_player_list"]:
         camp = int(p["camp"])
 
         rows.append({
-            "game_id": game_id,
+            "battle_id": battle_id,
             "player_name": p["player_name"],   # TODO: later we'll map this to player_id
             "team_id": int(p["team_id"]),
             "hero_id": int(p["hero_id"]),
@@ -101,13 +101,13 @@ def main() -> None:
     match_id = 2026031402  # temporary hardcoded value
 
     teams = parse_team_rows(data)
-    game = parse_game_row(data, match_id)
+    battle = parse_battle_row(data, match_id)
     players = parse_player_rows(data)
     heroes = parse_hero_rows(data)
     player_stats = parse_player_stats_rows(data)
 
-    print("=== GAME ===")
-    print(game)
+    print("=== BATTLE ===")
+    print(battle)
 
     print("\n=== TEAMS ===")
     for row in teams:

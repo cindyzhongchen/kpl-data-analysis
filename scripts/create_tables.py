@@ -56,10 +56,10 @@ def main() -> None:
             FOREIGN KEY (winner_team_id) REFERENCES teams(team_id)
         );
 
-        CREATE TABLE IF NOT EXISTS games (
-            game_id TEXT PRIMARY KEY,
+        CREATE TABLE IF NOT EXISTS battles (
+            battle_id TEXT PRIMARY KEY,
             match_id INTEGER NOT NULL,
-            game_number INTEGER NOT NULL,
+            battle_number INTEGER NOT NULL,
             winner_team_id INTEGER NOT NULL,
             duration INTEGER NOT NULL,
             FOREIGN KEY (match_id) REFERENCES matches(match_id),
@@ -67,7 +67,7 @@ def main() -> None:
         );
 
         CREATE TABLE IF NOT EXISTS player_stats (
-            game_id TEXT NOT NULL,
+            battle_id TEXT NOT NULL,
             player_id INTEGER NOT NULL,
             team_id INTEGER NOT NULL,
             hero_id INTEGER NOT NULL,
@@ -78,8 +78,8 @@ def main() -> None:
             gold INTEGER,
             win INTEGER NOT NULL CHECK (win IN (0, 1)),
             is_mvp INTEGER NOT NULL CHECK (is_mvp IN (0, 1)),
-            PRIMARY KEY (game_id, player_id),
-            FOREIGN KEY (game_id) REFERENCES games(game_id),
+            PRIMARY KEY (battle_id, player_id),
+            FOREIGN KEY (battle_id) REFERENCES battles(battle_id),
             FOREIGN KEY (player_id) REFERENCES players(player_id),
             FOREIGN KEY (team_id) REFERENCES teams(team_id),
             FOREIGN KEY (hero_id) REFERENCES heroes(hero_id)

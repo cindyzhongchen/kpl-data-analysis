@@ -14,7 +14,7 @@ def main() -> None:
         "players",
         "heroes",
         "matches",
-        "games",
+        "battles",
         "player_stats",
     ]
 

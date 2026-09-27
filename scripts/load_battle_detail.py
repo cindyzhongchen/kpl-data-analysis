@@ -5,7 +5,7 @@ from pathlib import Path
 
 from parse_battle_detail import (
     parse_team_rows,
-    parse_game_row,
+    parse_battle_row,
     parse_player_rows,
     parse_hero_rows,
     parse_player_stats_rows,
@@ -36,7 +36,7 @@ def load_one_battle(cursor, json_path: Path, match_id: int) -> None:
     data = payload["data"]
 
     teams = parse_team_rows(data)
-    game = parse_game_row(data, match_id)
+    battle = parse_battle_row(data, match_id)
     players = parse_player_rows(data)
     heroes = parse_hero_rows(data)
     player_stats = parse_player_stats_rows(data)
@@ -96,25 +96,25 @@ def load_one_battle(cursor, json_path: Path, match_id: int) -> None:
             "2026-03-14",       # TODO: derive actual match date or not
             team_a_id,
             team_b_id,
-            game["winner_team_id"], # TODO: replace with match winner
+            battle["winner_team_id"], # TODO: replace with match winner
             5,                  # only dealing with bo5 rn
             None,
         ),
     )
 
-    # Insert game
+    # Insert battle
     cursor.execute(
         """
-        INSERT OR IGNORE INTO games
-        (game_id, match_id, game_number, winner_team_id, duration)
+        INSERT OR IGNORE INTO battles
+        (battle_id, match_id, battle_number, winner_team_id, duration)
         VALUES (?, ?, ?, ?, ?)
         """,
         (
-            game["game_id"],
-            game["match_id"],
-            game["game_number"],
-            game["winner_team_id"],
-            game["duration"],
+            battle["battle_id"],
+            battle["match_id"],
+            battle["battle_number"],
+            battle["winner_team_id"],
+            battle["duration"],
         ),
     )
 
@@ -125,11 +125,11 @@ def load_one_battle(cursor, json_path: Path, match_id: int) -> None:
         cursor.execute(
             """
             INSERT OR IGNORE INTO player_stats
-            (game_id, player_id, team_id, hero_id, side, kills, deaths, assists, gold, win, is_mvp)
+            (battle_id, player_id, team_id, hero_id, side, kills, deaths, assists, gold, win, is_mvp)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
-                stat["game_id"],
+                stat["battle_id"],
                 player_id,
                 stat["team_id"],
                 stat["hero_id"],
