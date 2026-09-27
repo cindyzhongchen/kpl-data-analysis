@@ -24,7 +24,7 @@ def parse_battle_row(data: dict, match_id: int) -> dict:
         "match_id": match_id,
         "battle_number": data["battle_seq"],
         "winner_team_id": winner_team_id,
-        "duration": data["battle_duration"] // 1000,  # seconds
+        "duration": data["game_duration"] // 1000,  # seconds
     }
 
 
