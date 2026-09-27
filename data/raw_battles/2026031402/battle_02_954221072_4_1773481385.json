@@ -1,0 +1,1150 @@
+{
+  "message": "",
+  "code": 200,
+  "request_id": "eca28e7eeaa7e9227c06d7e0ebd93808",
+  "data": {
+    "battle_id": "954221072_4_1773481385",
+    "status": 2,
+    "win_camp": 1,
+    "game_duration": 633000,
+    "battle_seq": 2,
+    "camp1": {
+      "team_id": "10008",
+      "team_name": "深圳DYG",
+      "team_icon": "https://smhtv-pic.tga.qq.com/221a9ffe2de016e02e146465ed57ce73.png",
+      "is_win": true,
+      "kill_num": 8,
+      "assist_num": 19,
+      "death_num": 2,
+      "gold": 34982,
+      "kill_big_dragon_num": 0,
+      "push_tower_num": 5,
+      "kill_dark_tyrant_num": 0,
+      "kill_tyrant_num": 2,
+      "kda": 13.5,
+      "kill_prophet_dragon_num": 2,
+      "kill_shadow_dragon_num": 0,
+      "kill_storm_dragon_king_num": 0,
+      "team_abbreviation": "DYG"
+    },
+    "camp2": {
+      "team_id": "10001",
+      "team_name": "重庆狼队",
+      "team_icon": "https://smhtv-pic.tga.qq.com/a85f1428dd1ef3eaeeb5e203f17b9b25.png",
+      "is_win": false,
+      "kill_num": 2,
+      "assist_num": 3,
+      "death_num": 8,
+      "gold": 30355,
+      "kill_big_dragon_num": 0,
+      "push_tower_num": 1,
+      "kill_dark_tyrant_num": 0,
+      "kill_tyrant_num": 0,
+      "kda": 0.625,
+      "kill_prophet_dragon_num": 0,
+      "kill_shadow_dragon_num": 0,
+      "kill_storm_dragon_king_num": 0,
+      "team_abbreviation": "狼队"
+    },
+    "battle_player_list": [
+      {
+        "team_id": "10001",
+        "team_name": "重庆狼队",
+        "team_icon": "https://smhtv-pic.tga.qq.com/a85f1428dd1ef3eaeeb5e203f17b9b25.png",
+        "hero_id": 186,
+        "hero_name": "太乙真人",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/186.jpg",
+        "is_lose_mvp": 0,
+        "camp": 2,
+        "participation_rate": 50,
+        "is_mvp": 0,
+        "kill_num": 0,
+        "assist_num": 1,
+        "death_num": 3,
+        "gold": 4316,
+        "hurt_total": 18482,
+        "be_hurt_total": 47853,
+        "kda": 0.3,
+        "hurt_total_rate": 0.0242,
+        "be_hurt_total_rate": 0.27,
+        "mvp_score": 3.5,
+        "actual_player_name": "重庆狼队.信",
+        "SummonerAbilityInfo": {
+          "summoner_ability_id": 80115,
+          "summoner_ability_name": "闪现",
+          "summoner_ability_rank": "LV.19解锁",
+          "summoner_ability_desc": "120秒CD：向指定方向位移一段距离",
+          "summoner_ability_icon": "https://res.edata.qq.com/sgame/static/images/summoner_ability/80115.jpg"
+        },
+        "BriefHeroSkillList": [
+          {
+            "skill_name": "大变活人",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/186/18630.png"
+          },
+          {
+            "skill_name": "意外事故",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/186/18610.png"
+          },
+          {
+            "skill_name": "第三只手",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/186/18620.png"
+          },
+          {
+            "skill_name": "黄金闪闪",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/186/18600.png"
+          }
+        ],
+        "BriefEquipList": [
+          {
+            "equip_id": 1754,
+            "equip_name": "近卫·形昭",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1754.jpg",
+            "equip_desc_gain": "<p>+1200生命值<br>+7.5%移速</p>",
+            "equip_desc_function": "<p>主动-见影：释放一道探照光波，对1200范围内的敌方造成4次伤害，每次造成当前生命3%的伤害并附带25%~50%减速。探照光波会在范围内继续残留2秒，期间也会提供视野并短暂暴露隐身单位，同时对进入的敌人造成伤害和减速，该技能可短暂暴露英雄隐身或在草丛中的视野（CD:75秒，没有命中目标会返还75%）游走装主动技能队伍共享冷却<br>被动-守护光环：增加自身65~130物理和法术防御和(+0.6%目标额外生命)每5秒回血，对800范围友方造成50%效果<br>被动-奖赏：增加400~800最大生命值，增加25~50主攻属性（1主攻击属性=1物理攻击或2法术攻击）<br>被动-游击：每3秒增加自身6经验，每隔10秒传送一枚掉落的金币到英雄附近，增加队伍中经济最低的英雄6金币(众星峡谷中的效果保持不变)</p>"
+          },
+          {
+            "equip_id": 1422,
+            "equip_name": "抵抗之靴",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1422.jpg",
+            "equip_desc_gain": "<p>+50物理防御<br>+100法术防御</p>",
+            "equip_desc_function": "<p>被动-神速：+50移动速度（所有鞋类装备的移速加成效果不叠加）<br>被动-坚韧：+25%韧性</p>"
+          },
+          {
+            "equip_id": 1325,
+            "equip_name": "守护者之铠",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1325.jpg",
+            "equip_desc_gain": "<p>+150物理防御<br>+450最大生命</p>",
+            "equip_desc_function": ""
+          },
+          {
+            "equip_id": 1218,
+            "equip_name": "元流结晶",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1218.jpg",
+            "equip_desc_gain": "<p>+5%冷却缩减</p>",
+            "equip_desc_function": ""
+          },
+          {
+            "equip_id": 1311,
+            "equip_name": "红玛瑙",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1311.jpg",
+            "equip_desc_gain": "<p>+300最大生命</p>",
+            "equip_desc_function": ""
+          }
+        ],
+        "player_name": "信",
+        "player_icon": "https://smobatv-pic.tga.qq.com/9adf1a19c562419b34488abce9ef77c1.png",
+        "symbol_ids": "1512+1512+1512+1512+1512+1512+1512+1512+1512+1512+2515+2515+2515+2515+2515+2515+2515+2515+2515+2515+3509+3509+3509+3509+3509+3509+3509+3509+3509+3509",
+        "position": 4,
+        "position_desc": "游走",
+        "hurt_to_hero_total": 11487,
+        "be_hurt_by_hero_total": 45830,
+        "hurt_to_hero_total_rate": 0.0897,
+        "be_hurt_by_hero_total_rate": 0.3053,
+        "skin_id": 7
+      },
+      {
+        "team_id": "10001",
+        "team_name": "重庆狼队",
+        "team_icon": "https://smhtv-pic.tga.qq.com/a85f1428dd1ef3eaeeb5e203f17b9b25.png",
+        "hero_id": 538,
+        "hero_name": "云缨",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/538.jpg",
+        "is_lose_mvp": 0,
+        "camp": 2,
+        "participation_rate": 0,
+        "is_mvp": 0,
+        "kill_num": 0,
+        "assist_num": 0,
+        "death_num": 2,
+        "gold": 6199,
+        "hurt_total": 190952,
+        "be_hurt_total": 56347,
+        "kda": 0,
+        "hurt_total_rate": 0.2502,
+        "be_hurt_total_rate": 0.3179,
+        "mvp_score": 3.6,
+        "actual_player_name": "重庆狼队.皖皖",
+        "SummonerAbilityInfo": {
+          "summoner_ability_id": 80104,
+          "summoner_ability_name": "惩击",
+          "summoner_ability_rank": "LV.1解锁",
+          "summoner_ability_desc": "30秒CD：对身边的野怪和小兵造成真1500点的实伤害并眩晕1秒",
+          "summoner_ability_icon": "https://res.edata.qq.com/sgame/static/images/summoner_ability/80104.jpg"
+        },
+        "BriefHeroSkillList": [
+          {
+            "skill_name": "断月",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/538/53810.png"
+          },
+          {
+            "skill_name": "枪意·掠火",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/538/53800.png"
+          },
+          {
+            "skill_name": "追云",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/538/53820.png"
+          },
+          {
+            "skill_name": "逐星",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/538/53830.png"
+          }
+        ],
+        "BriefEquipList": [
+          {
+            "equip_id": 1532,
+            "equip_name": "巨人之握",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1532.jpg",
+            "equip_desc_gain": "<p>+1200最大生命<br>+5%冷却缩减<br>+5%移速</p>",
+            "equip_desc_function": "<p>被动-狩猎：普攻/技能命中后，野怪每0.5秒受到90~180(+0.6%目标最大生命值)的物理伤害（远程攻击减半，对英雄伤害生效25%），持续2秒。受到野怪伤害降低25%，获得来自野怪的经验提升30%、金币提升20%。<br>被动-奖赏：自己击杀或700范围内友方击杀野怪增加自身30点最大生命和0.2%冷却，最多叠25层<br>4分钟前：不参与兵线分配，单独获得50%金币/经验<br>10分钟前：对兵线伤害降低25%</p>"
+          },
+          {
+            "equip_id": 1422,
+            "equip_name": "抵抗之靴",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1422.jpg",
+            "equip_desc_gain": "<p>+50物理防御<br>+100法术防御</p>",
+            "equip_desc_function": "<p>被动-神速：+50移动速度（所有鞋类装备的移速加成效果不叠加）<br>被动-坚韧：+25%韧性</p>"
+          },
+          {
+            "equip_id": 1534,
+            "equip_name": "怒龙剑盾",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1534.jpg",
+            "equip_desc_gain": "<p>+1100最大生命<br>+150物理防御<br>+150法术防御</p>",
+            "equip_desc_function": "<p>被动-重创：普攻与技能对兵线和野怪造成7%最大生命的物理伤害，同时恢复伤害效果50%的生命(远程攻击减半)（远程英雄减半）冷却2.5秒<br>被动-神力：普攻或技能对敌方英雄和防御塔造成3.5%最大生命的物理伤害(远程攻击减半)，冷却2.5秒<br></p>"
+          },
+          {
+            "equip_id": 1323,
+            "equip_name": "神隐斗篷",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1323.jpg",
+            "equip_desc_gain": "<p>+150法术防御<br>+450最大生命</p>",
+            "equip_desc_function": ""
+          },
+          {
+            "equip_id": 1313,
+            "equip_name": "抗魔披风",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1313.jpg",
+            "equip_desc_gain": "<p>+100法术防御</p>",
+            "equip_desc_function": ""
+          }
+        ],
+        "player_name": "皖皖",
+        "player_icon": "https://smobatv-pic.tga.qq.com/bd085274ae0187ecd05497d4904ca5e5.png",
+        "symbol_ids": "1504+1504+1504+1504+1504+1504+1504+1504+1504+1504+2517+2517+2517+2517+2517+2517+2517+2517+2517+2517+3514+3514+3514+3514+3514+3514+3514+3514+3514+3514",
+        "position": 5,
+        "position_desc": "打野",
+        "hurt_to_hero_total": 24457,
+        "be_hurt_by_hero_total": 51891,
+        "hurt_to_hero_total_rate": 0.1909,
+        "be_hurt_by_hero_total_rate": 0.3457,
+        "skin_id": 2
+      },
+      {
+        "team_id": "10008",
+        "team_name": "深圳DYG",
+        "team_icon": "https://smhtv-pic.tga.qq.com/221a9ffe2de016e02e146465ed57ce73.png",
+        "hero_id": 197,
+        "hero_name": "弈星",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/197.jpg",
+        "is_lose_mvp": 0,
+        "camp": 1,
+        "participation_rate": 75,
+        "is_mvp": 0,
+        "kill_num": 0,
+        "assist_num": 6,
+        "death_num": 0,
+        "gold": 5496,
+        "hurt_total": 102277,
+        "be_hurt_total": 18652,
+        "kda": 6,
+        "hurt_total_rate": 0.1055,
+        "be_hurt_total_rate": 0.1021,
+        "mvp_score": 5.8,
+        "actual_player_name": "深圳DYG.向鱼",
+        "SummonerAbilityInfo": {
+          "summoner_ability_id": 80115,
+          "summoner_ability_name": "闪现",
+          "summoner_ability_rank": "LV.19解锁",
+          "summoner_ability_desc": "120秒CD：向指定方向位移一段距离",
+          "summoner_ability_icon": "https://res.edata.qq.com/sgame/static/images/summoner_ability/80115.jpg"
+        },
+        "BriefHeroSkillList": [
+          {
+            "skill_name": "万变之局",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/197/19730.png"
+          },
+          {
+            "skill_name": "气合",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/197/19700.png"
+          },
+          {
+            "skill_name": "镇神",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/197/19720.png"
+          },
+          {
+            "skill_name": "飞攻",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/197/19710.png"
+          }
+        ],
+        "BriefEquipList": [
+          {
+            "equip_id": 1235,
+            "equip_name": "痛苦面具",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1235.jpg",
+            "equip_desc_gain": "<p>+100法术攻击<br>+7.5%冷却缩减<br>+900最大生命</p>",
+            "equip_desc_function": "<p>被动-折磨： 技能命中后，目标在3秒内受到到4次3%当前生命的法术伤害（伤害对野怪上限为200点），持续3秒。"
+          },
+          {
+            "equip_id": 1423,
+            "equip_name": "冷静之靴",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1423.jpg",
+            "equip_desc_gain": "<p>+15%冷却缩减</p>",
+            "equip_desc_function": "<p>被动-静谧：加速召唤师技能10~20%冷却速度<br>被动-神速：+50移动速度（所有鞋类装备的移速加成效果不叠加）</p>"
+          },
+          {
+            "equip_id": 12211,
+            "equip_name": "梦魇之牙",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/12211.jpg",
+            "equip_desc_gain": "<p>+220法术攻击<br>+7.5%移动速度<br>+7.5%冷却缩减</p>",
+            "equip_desc_function": "<p>被动-重伤：普攻/技能命中敌人后降低其35%生命回复和吸血效果，持续2.5秒</p>"
+          }
+        ],
+        "player_name": "向鱼",
+        "player_icon": "https://smobatv-pic.tga.qq.com/eccb758b2ffb8ec619729db67e6b5ae1.png",
+        "symbol_ids": "1517+1514+1514+1514+1514+1514+1514+1514+1514+1514+2520+2520+2520+2520+2520+2520+2520+2520+2520+2520+3515+3515+3515+3515+3515+3515+3515+3515+3515+3515",
+        "position": 2,
+        "position_desc": "中路",
+        "hurt_to_hero_total": 24874,
+        "be_hurt_by_hero_total": 14331,
+        "hurt_to_hero_total_rate": 0.1657,
+        "be_hurt_by_hero_total_rate": 0.1119,
+        "skin_id": 3
+      },
+      {
+        "team_id": "10008",
+        "team_name": "深圳DYG",
+        "team_icon": "https://smhtv-pic.tga.qq.com/221a9ffe2de016e02e146465ed57ce73.png",
+        "hero_id": 128,
+        "hero_name": "曹操",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/128.jpg",
+        "is_lose_mvp": 0,
+        "camp": 1,
+        "participation_rate": 75,
+        "is_mvp": 1,
+        "kill_num": 3,
+        "assist_num": 3,
+        "death_num": 0,
+        "gold": 8470,
+        "hurt_total": 241442,
+        "be_hurt_total": 45140,
+        "kda": 6,
+        "hurt_total_rate": 0.2489,
+        "be_hurt_total_rate": 0.247,
+        "mvp_score": 8.9,
+        "actual_player_name": "深圳DYG.小乐",
+        "SummonerAbilityInfo": {
+          "summoner_ability_id": 80115,
+          "summoner_ability_name": "闪现",
+          "summoner_ability_rank": "LV.19解锁",
+          "summoner_ability_desc": "120秒CD：向指定方向位移一段距离",
+          "summoner_ability_icon": "https://res.edata.qq.com/sgame/static/images/summoner_ability/80115.jpg"
+        },
+        "BriefHeroSkillList": [
+          {
+            "skill_name": "争霸",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/128/12800.png"
+          },
+          {
+            "skill_name": "浴血枭雄",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/128/12830.png"
+          },
+          {
+            "skill_name": "纵横天下",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/128/12820.png"
+          },
+          {
+            "skill_name": "霸道之刃",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/128/12810.png"
+          }
+        ],
+        "BriefEquipList": [
+          {
+            "equip_id": 1137,
+            "equip_name": "暗影战斧",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1137.jpg",
+            "equip_desc_gain": "<p>+80物理攻击<br>+10%冷却缩减<br>+500最大生命</p>",
+            "equip_desc_function": "<p>唯一被动-切割：增加90~180点物理穿透</p>"
+          },
+          {
+            "equip_id": 1422,
+            "equip_name": "抵抗之靴",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1422.jpg",
+            "equip_desc_gain": "<p>+50物理防御<br>+100法术防御</p>",
+            "equip_desc_function": "<p>被动-神速：+50移动速度（所有鞋类装备的移速加成效果不叠加）<br>被动-坚韧：+25%韧性</p>"
+          },
+          {
+            "equip_id": 11311,
+            "equip_name": "纯净苍穹",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/11311.jpg",
+            "equip_desc_gain": "<p>+80物理攻击<br>+10%冷却缩减<br>+150物理防御</p>",
+            "equip_desc_function": "<p>唯一主动-驱散：获得30%减伤，持续3秒，冷却时间：75秒<br>被动-残废：技能对首个命中的敌方英雄造成10%~20%减速，并使其对自己的伤害降低20%，持续3秒，该效果有8秒冷却时间</p>"
+          },
+          {
+            "equip_id": 1126,
+            "equip_name": "末世",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1126.jpg",
+            "equip_desc_gain": "<p>+500最大生命<br>+40物理攻击<br>+20%攻击速度 <br>+20%物理吸血</p>",
+            "equip_desc_function": "<p>唯一被动-破败：普攻额外造成目标80~160（+7%目标额外最大生命）的物理伤害，冷却时间0.15秒</p>"
+          },
+          {
+            "equip_id": 1345,
+            "equip_name": "荆棘护手",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1345.jpg",
+            "equip_desc_gain": "<p>+150物理防御<br>+35物理攻击</p>",
+            "equip_desc_function": ""
+          },
+          {
+            "equip_id": 1312,
+            "equip_name": "布甲",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1312.jpg",
+            "equip_desc_gain": "<p>+100物理防御</p>",
+            "equip_desc_function": ""
+          }
+        ],
+        "player_name": "小乐",
+        "player_icon": "https://smobatv-pic.tga.qq.com/68b355732423e7e387ee263655211b87.png",
+        "symbol_ids": "1504+1504+1504+1504+1504+1504+1504+1504+1504+1504+2517+2517+2517+2517+2517+2517+2517+2517+2517+2517+3514+3514+3514+3514+3514+3514+3514+3514+3514+3514",
+        "position": 6,
+        "position_desc": "对抗路",
+        "hurt_to_hero_total": 39309,
+        "be_hurt_by_hero_total": 29149,
+        "hurt_to_hero_total_rate": 0.2619,
+        "be_hurt_by_hero_total_rate": 0.2275,
+        "skin_id": 8
+      },
+      {
+        "team_id": "10008",
+        "team_name": "深圳DYG",
+        "team_icon": "https://smhtv-pic.tga.qq.com/221a9ffe2de016e02e146465ed57ce73.png",
+        "hero_id": 509,
+        "hero_name": "盾山",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/509.jpg",
+        "is_lose_mvp": 0,
+        "camp": 1,
+        "participation_rate": 75,
+        "is_mvp": 0,
+        "kill_num": 1,
+        "assist_num": 5,
+        "death_num": 1,
+        "gold": 5135,
+        "hurt_total": 32774,
+        "be_hurt_total": 43734,
+        "kda": 6,
+        "hurt_total_rate": 0.0338,
+        "be_hurt_total_rate": 0.2393,
+        "mvp_score": 6.5,
+        "actual_player_name": "深圳DYG.落空",
+        "SummonerAbilityInfo": {
+          "summoner_ability_id": 80115,
+          "summoner_ability_name": "闪现",
+          "summoner_ability_rank": "LV.19解锁",
+          "summoner_ability_desc": "120秒CD：向指定方向位移一段距离",
+          "summoner_ability_icon": "https://res.edata.qq.com/sgame/static/images/summoner_ability/80115.jpg"
+        },
+        "BriefHeroSkillList": [
+          {
+            "skill_name": "一夫当关",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/509/50910.png"
+          },
+          {
+            "skill_name": "万夫莫开",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/509/50920.png"
+          },
+          {
+            "skill_name": "不动如山",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/509/50930.png"
+          },
+          {
+            "skill_name": "天地化盾",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/509/50900.png"
+          }
+        ],
+        "BriefEquipList": [
+          {
+            "equip_id": 1724,
+            "equip_name": "近卫·救赎",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1724.jpg",
+            "equip_desc_gain": "<p>+1200生命值<br>+7.5%移速</p>",
+            "equip_desc_function": "<p>主动-救援：范围内友方英雄立即获得240~480+10%最大生命值护盾，持续4秒（CD:60秒）游走装主动技能队伍共享冷却<br>被动-守护光环：增加自身65~130物理和法术防御和(+0.6%目标额外生命)每5秒回血，对800范围友方造成50%效果<br>被动-奖赏：增加400~800最大生命值，增加25~50主攻属性（1主攻击属性=1物理攻击或2法术攻击）<br>被动-游击：每3秒增加自身6经验，每隔10秒传送一枚掉落的金币到英雄附近，增加队伍中经济最低的英雄6金币(众星峡谷中的效果保持不变) </p>"
+          },
+          {
+            "equip_id": 1422,
+            "equip_name": "抵抗之靴",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1422.jpg",
+            "equip_desc_gain": "<p>+50物理防御<br>+100法术防御</p>",
+            "equip_desc_function": "<p>被动-神速：+50移动速度（所有鞋类装备的移速加成效果不叠加）<br>被动-坚韧：+25%韧性</p>"
+          },
+          {
+            "equip_id": 1341,
+            "equip_name": "冰霜冲击",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1341.jpg",
+            "equip_desc_gain": "<p>+150物理防御<br>+950最大生命<br>+7.5%冷却缩减</p>",
+            "equip_desc_function": "<p>主动-冲击：在自身450范围内生成霜冻领域（持续0.75秒）：造成30%~60%减速，随后对敌人造成100~200法术伤害和冻结（持续⅔秒）<br>被动-冰甲：新增10%韧性属性，受到除压制外的硬控后获得10%生命值的护盾，持续5秒，该效果有15秒冷却时间。</p>"
+          },
+          {
+            "equip_id": 1311,
+            "equip_name": "红玛瑙",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1311.jpg",
+            "equip_desc_gain": "<p>+300最大生命</p>",
+            "equip_desc_function": ""
+          }
+        ],
+        "player_name": "落空",
+        "player_icon": "https://smobatv-pic.tga.qq.com/7fdae6077bbc3295adc5e5e782a90a8e.png",
+        "symbol_ids": "1512+1512+1512+1512+1512+1512+1512+1512+1512+1512+2520+2520+2520+2520+2520+2515+2515+2515+2515+2515+3509+3509+3509+3509+3509+3509+3509+3509+3509+3509",
+        "position": 4,
+        "position_desc": "游走",
+        "hurt_to_hero_total": 12994,
+        "be_hurt_by_hero_total": 29424,
+        "hurt_to_hero_total_rate": 0.0866,
+        "be_hurt_by_hero_total_rate": 0.2297,
+        "skin_id": 4
+      },
+      {
+        "team_id": "10001",
+        "team_name": "重庆狼队",
+        "team_icon": "https://smhtv-pic.tga.qq.com/a85f1428dd1ef3eaeeb5e203f17b9b25.png",
+        "hero_id": 312,
+        "hero_name": "沈梦溪",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/312.jpg",
+        "is_lose_mvp": 0,
+        "camp": 2,
+        "participation_rate": 50,
+        "is_mvp": 0,
+        "kill_num": 0,
+        "assist_num": 1,
+        "death_num": 1,
+        "gold": 5380,
+        "hurt_total": 147178,
+        "be_hurt_total": 14691,
+        "kda": 1,
+        "hurt_total_rate": 0.1928,
+        "be_hurt_total_rate": 0.0829,
+        "mvp_score": 4,
+        "actual_player_name": "重庆狼队.紫幻",
+        "SummonerAbilityInfo": {
+          "summoner_ability_id": 80115,
+          "summoner_ability_name": "闪现",
+          "summoner_ability_rank": "LV.19解锁",
+          "summoner_ability_desc": "120秒CD：向指定方向位移一段距离",
+          "summoner_ability_icon": "https://res.edata.qq.com/sgame/static/images/summoner_ability/80115.jpg"
+        },
+        "BriefHeroSkillList": [
+          {
+            "skill_name": "暴躁节奏",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/312/31200.png"
+          },
+          {
+            "skill_name": "正常操作",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/312/31220.png"
+          },
+          {
+            "skill_name": "猫咪炸弹",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/312/31210.png"
+          },
+          {
+            "skill_name": "综合爆款",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/312/31230.png"
+          }
+        ],
+        "BriefEquipList": [
+          {
+            "equip_id": 12211,
+            "equip_name": "梦魇之牙",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/12211.jpg",
+            "equip_desc_gain": "<p>+220法术攻击<br>+7.5%移动速度<br>+7.5%冷却缩减</p>",
+            "equip_desc_function": "<p>被动-重伤：普攻/技能命中敌人后降低其35%生命回复和吸血效果，持续2.5秒</p>"
+          },
+          {
+            "equip_id": 1423,
+            "equip_name": "冷静之靴",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1423.jpg",
+            "equip_desc_gain": "<p>+15%冷却缩减</p>",
+            "equip_desc_function": "<p>被动-静谧：加速召唤师技能10~20%冷却速度<br>被动-神速：+50移动速度（所有鞋类装备的移速加成效果不叠加）</p>"
+          },
+          {
+            "equip_id": 1235,
+            "equip_name": "痛苦面具",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1235.jpg",
+            "equip_desc_gain": "<p>+100法术攻击<br>+7.5%冷却缩减<br>+900最大生命</p>",
+            "equip_desc_function": "<p>被动-折磨： 技能命中后，目标在3秒内受到到4次3%当前生命的法术伤害（伤害对野怪上限为200点），持续3秒。"
+          },
+          {
+            "equip_id": 1211,
+            "equip_name": "咒术典籍",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1211.jpg",
+            "equip_desc_gain": "<p>+35法术攻击</p> ",
+            "equip_desc_function": ""
+          }
+        ],
+        "player_name": "紫幻",
+        "player_icon": "https://smobatv-pic.tga.qq.com/ee53272da72e55570b5264a3910844d3.png",
+        "symbol_ids": "1514+1514+1514+1514+1514+1514+1514+1514+1514+1514+2515+2515+2515+2515+2515+2515+2515+2515+2515+2515+3515+3515+3515+3515+3515+3515+3515+3515+3515+3515",
+        "position": 2,
+        "position_desc": "中路",
+        "hurt_to_hero_total": 43171,
+        "be_hurt_by_hero_total": 10959,
+        "hurt_to_hero_total_rate": 0.337,
+        "be_hurt_by_hero_total_rate": 0.073,
+        "skin_id": 6
+      },
+      {
+        "team_id": "10008",
+        "team_name": "深圳DYG",
+        "team_icon": "https://smhtv-pic.tga.qq.com/221a9ffe2de016e02e146465ed57ce73.png",
+        "hero_id": 178,
+        "hero_name": "杨戬",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/178.jpg",
+        "is_lose_mvp": 0,
+        "camp": 1,
+        "participation_rate": 37.5,
+        "is_mvp": 0,
+        "kill_num": 1,
+        "assist_num": 2,
+        "death_num": 1,
+        "gold": 7300,
+        "hurt_total": 275560,
+        "be_hurt_total": 37524,
+        "kda": 3,
+        "hurt_total_rate": 0.2841,
+        "be_hurt_total_rate": 0.2054,
+        "mvp_score": 5.2,
+        "actual_player_name": "深圳DYG.小轩",
+        "SummonerAbilityInfo": {
+          "summoner_ability_id": 80104,
+          "summoner_ability_name": "惩击",
+          "summoner_ability_rank": "LV.1解锁",
+          "summoner_ability_desc": "30秒CD：对身边的野怪和小兵造成真1500点的实伤害并眩晕1秒",
+          "summoner_ability_icon": "https://res.edata.qq.com/sgame/static/images/summoner_ability/80104.jpg"
+        },
+        "BriefHeroSkillList": [
+          {
+            "skill_name": "根源之目",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/178/17830.png"
+          },
+          {
+            "skill_name": "神智侵蚀",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/178/17800.png"
+          },
+          {
+            "skill_name": "虚妄破灭",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/178/17820.png"
+          },
+          {
+            "skill_name": "逆转乾坤",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/178/17810.png"
+          }
+        ],
+        "BriefEquipList": [
+          {
+            "equip_id": 1533,
+            "equip_name": "贪婪之噬",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1533.jpg",
+            "equip_desc_gain": "<p>+90物理攻击<br>+5%移速<br>+7.5%冷却</p>",
+            "equip_desc_function": "<p>被动-狩猎：普攻/技能命中后，野怪每0.5秒受到90~180(+0.6%目标最大生命值)的物理伤害（远程攻击减半，对英雄伤害生效25%），持续2秒。受到野怪伤害降低25%，获得来自野怪的经验提升30%、金币提升20%。<br>被动-奖赏：自己击杀或700范围内友方击杀野怪增加自身3点物理攻击和0.2%冷却缩减，最多叠加25层<br>4分钟前：不参与兵线分配，单独获得50%金币/经验<br>10分钟前：对兵线伤害降低25%</p>"
+          },
+          {
+            "equip_id": 1421,
+            "equip_name": "影忍之足",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1421.jpg",
+            "equip_desc_gain": "<p>+50法术防御<br>+120物理防御</p>",
+            "equip_desc_function": "<p>唯一被动：+50移动速度（所有鞋类装备的移速加成效果不叠加）<br>唯一被动：抵挡6%~12%物理伤害</p>"
+          },
+          {
+            "equip_id": 1534,
+            "equip_name": "怒龙剑盾",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1534.jpg",
+            "equip_desc_gain": "<p>+1100最大生命<br>+150物理防御<br>+150法术防御</p>",
+            "equip_desc_function": "<p>被动-重创：普攻与技能对兵线和野怪造成7%最大生命的物理伤害，同时恢复伤害效果50%的生命(远程攻击减半)（远程英雄减半）冷却2.5秒<br>被动-神力：普攻或技能对敌方英雄和防御塔造成3.5%最大生命的物理伤害(远程攻击减半)，冷却2.5秒<br></p>"
+          },
+          {
+            "equip_id": 1137,
+            "equip_name": "暗影战斧",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1137.jpg",
+            "equip_desc_gain": "<p>+80物理攻击<br>+10%冷却缩减<br>+500最大生命</p>",
+            "equip_desc_function": "<p>唯一被动-切割：增加90~180点物理穿透</p>"
+          },
+          {
+            "equip_id": 1311,
+            "equip_name": "红玛瑙",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1311.jpg",
+            "equip_desc_gain": "<p>+300最大生命</p>",
+            "equip_desc_function": ""
+          }
+        ],
+        "player_name": "小轩",
+        "player_icon": "https://smobatv-pic.tga.qq.com/b931c1d81dc504b45006360ed555fcc7.png",
+        "symbol_ids": "1520+1504+1504+1504+1504+1504+1504+1504+1504+1504+2520+2520+2520+2520+2520+2520+2520+2520+2520+2520+3514+3514+3514+3514+3514+3514+3514+3514+3514+3514",
+        "position": 5,
+        "position_desc": "打野",
+        "hurt_to_hero_total": 35620,
+        "be_hurt_by_hero_total": 28624,
+        "hurt_to_hero_total_rate": 0.2373,
+        "be_hurt_by_hero_total_rate": 0.2234,
+        "skin_id": 7
+      },
+      {
+        "team_id": "10001",
+        "team_name": "重庆狼队",
+        "team_icon": "https://smhtv-pic.tga.qq.com/a85f1428dd1ef3eaeeb5e203f17b9b25.png",
+        "hero_id": 537,
+        "hero_name": "司空震",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/537.jpg",
+        "is_lose_mvp": 0,
+        "camp": 2,
+        "participation_rate": 100,
+        "is_mvp": 0,
+        "kill_num": 1,
+        "assist_num": 1,
+        "death_num": 1,
+        "gold": 7101,
+        "hurt_total": 201888,
+        "be_hurt_total": 41329,
+        "kda": 2,
+        "hurt_total_rate": 0.2645,
+        "be_hurt_total_rate": 0.2332,
+        "mvp_score": 5.2,
+        "actual_player_name": "重庆狼队.清清",
+        "SummonerAbilityInfo": {
+          "summoner_ability_id": 80110,
+          "summoner_ability_name": "狂暴",
+          "summoner_ability_rank": "LV.5解锁",
+          "summoner_ability_desc": "75秒CD：使用期间增加10%伤害、增加25%韧性、20%的物理吸血和30%法术吸血，持续7秒",
+          "summoner_ability_icon": "https://res.edata.qq.com/sgame/static/images/summoner_ability/80110.jpg"
+        },
+        "BriefHeroSkillList": [
+          {
+            "skill_name": "天雷引",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/537/53700.png"
+          },
+          {
+            "skill_name": "奔雷疾",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/537/53710.png"
+          },
+          {
+            "skill_name": "狂雷击",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/537/53720.png"
+          },
+          {
+            "skill_name": "雷霆万钧",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/537/53730.png"
+          }
+        ],
+        "BriefEquipList": [
+          {
+            "equip_id": 1422,
+            "equip_name": "抵抗之靴",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1422.jpg",
+            "equip_desc_gain": "<p>+50物理防御<br>+100法术防御</p>",
+            "equip_desc_function": "<p>被动-神速：+50移动速度（所有鞋类装备的移速加成效果不叠加）<br>被动-坚韧：+25%韧性</p>"
+          },
+          {
+            "equip_id": 1135,
+            "equip_name": "闪电匕首",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1135.jpg",
+            "equip_desc_gain": "<p>+40物理攻击<br>+35%攻击速度<br>+7.5%移速</p>",
+            "equip_desc_function": "<p>唯一被动-电弧：普攻额外造成40~80法术伤害，每3次普攻会释放一次连锁闪电，造成160~400法术伤害，冷却时间：0.15秒</p>"
+          },
+          {
+            "equip_id": 1534,
+            "equip_name": "怒龙剑盾",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1534.jpg",
+            "equip_desc_gain": "<p>+1100最大生命<br>+150物理防御<br>+150法术防御</p>",
+            "equip_desc_function": "<p>被动-重创：普攻与技能对兵线和野怪造成7%最大生命的物理伤害，同时恢复伤害效果50%的生命(远程攻击减半)（远程英雄减半）冷却2.5秒<br>被动-神力：普攻或技能对敌方英雄和防御塔造成3.5%最大生命的物理伤害(远程攻击减半)，冷却2.5秒<br></p>"
+          },
+          {
+            "equip_id": 1159,
+            "equip_name": "逐风",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1159.jpg",
+            "equip_desc_gain": "<p>+50 物理攻击<br>+600最大生命<br>+30%攻击速度</p>",
+            "equip_desc_function": "<p>被动-逐风：单次技能和普攻行为命中目标，提高2%攻速、移速与伤害，持续2.5秒，最大5层，逐层掉落，持续3秒</p>"
+          }
+        ],
+        "player_name": "清清",
+        "player_icon": "https://smobatv-pic.tga.qq.com/7894953ce0dee35a57160891654a03f2.png",
+        "symbol_ids": "1512+1512+1512+1512+1512+1512+1512+1512+1520+1520+2520+2520+2520+2520+2520+2520+2520+2520+2520+2520+3501+3501+3501+3501+3501+3501+3501+3501+3501+3501",
+        "position": 6,
+        "position_desc": "对抗路",
+        "hurt_to_hero_total": 28834,
+        "be_hurt_by_hero_total": 28786,
+        "hurt_to_hero_total_rate": 0.2251,
+        "be_hurt_by_hero_total_rate": 0.1918,
+        "skin_id": 1
+      },
+      {
+        "team_id": "10008",
+        "team_name": "深圳DYG",
+        "team_icon": "https://smhtv-pic.tga.qq.com/221a9ffe2de016e02e146465ed57ce73.png",
+        "hero_id": 155,
+        "hero_name": "艾琳",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/155.jpg",
+        "is_lose_mvp": 0,
+        "camp": 1,
+        "participation_rate": 75,
+        "is_mvp": 0,
+        "kill_num": 3,
+        "assist_num": 3,
+        "death_num": 0,
+        "gold": 8581,
+        "hurt_total": 317852,
+        "be_hurt_total": 37677,
+        "kda": 6,
+        "hurt_total_rate": 0.3277,
+        "be_hurt_total_rate": 0.2062,
+        "mvp_score": 7.5,
+        "actual_player_name": "深圳DYG.钎城",
+        "SummonerAbilityInfo": {
+          "summoner_ability_id": 80115,
+          "summoner_ability_name": "闪现",
+          "summoner_ability_rank": "LV.19解锁",
+          "summoner_ability_desc": "120秒CD：向指定方向位移一段距离",
+          "summoner_ability_icon": "https://res.edata.qq.com/sgame/static/images/summoner_ability/80115.jpg"
+        },
+        "BriefHeroSkillList": [
+          {
+            "skill_name": "叶舞·致意",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/155/15510.png"
+          },
+          {
+            "skill_name": "旋舞·轻语",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/155/15520.png"
+          },
+          {
+            "skill_name": "月桂之舞·盛放",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/155/15530.png"
+          },
+          {
+            "skill_name": "精灵舞步",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/155/15500.png"
+          }
+        ],
+        "BriefEquipList": [
+          {
+            "equip_id": 1135,
+            "equip_name": "闪电匕首",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1135.jpg",
+            "equip_desc_gain": "<p>+40物理攻击<br>+35%攻击速度<br>+7.5%移速</p>",
+            "equip_desc_function": "<p>唯一被动-电弧：普攻额外造成40~80法术伤害，每3次普攻会释放一次连锁闪电，造成160~400法术伤害，冷却时间：0.15秒</p>"
+          },
+          {
+            "equip_id": 1422,
+            "equip_name": "抵抗之靴",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1422.jpg",
+            "equip_desc_gain": "<p>+50物理防御<br>+100法术防御</p>",
+            "equip_desc_function": "<p>被动-神速：+50移动速度（所有鞋类装备的移速加成效果不叠加）<br>被动-坚韧：+25%韧性</p>"
+          },
+          {
+            "equip_id": 1126,
+            "equip_name": "末世",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1126.jpg",
+            "equip_desc_gain": "<p>+500最大生命<br>+40物理攻击<br>+20%攻击速度 <br>+20%物理吸血</p>",
+            "equip_desc_function": "<p>唯一被动-破败：普攻额外造成目标80~160（+7%目标额外最大生命）的物理伤害，冷却时间0.15秒</p>"
+          },
+          {
+            "equip_id": 1231,
+            "equip_name": "虚无法杖",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1231.jpg",
+            "equip_desc_gain": "<p>+210法术攻击<br>+500最大生命值<br>+5%冷却缩减</p>",
+            "equip_desc_function": "<p>唯一被动：+45%法术穿透</p>"
+          },
+          {
+            "equip_id": 1129,
+            "equip_name": "速击之枪",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1129.jpg",
+            "equip_desc_gain": "<p>+35物理攻击<br>+15%攻击速度</p>",
+            "equip_desc_function": ""
+          },
+          {
+            "equip_id": 11211,
+            "equip_name": "精钢锻刀",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/11211.jpg",
+            "equip_desc_gain": "<p>+15%攻击速度<br>+450最大生命</p>",
+            "equip_desc_function": ""
+          }
+        ],
+        "player_name": "钎城",
+        "player_icon": "https://smobatv-pic.tga.qq.com/ea28d87c37b7616ada10c22203ccd3c8.png",
+        "symbol_ids": "1512+1512+1512+1512+1512+1512+1512+1512+1520+1520+2520+2520+2504+2504+2504+2504+2504+2504+2504+2504+3515+3515+3515+3515+3515+3515+3515+3515+3515+3515",
+        "position": 7,
+        "position_desc": "发育路",
+        "hurt_to_hero_total": 37299,
+        "be_hurt_by_hero_total": 26585,
+        "hurt_to_hero_total_rate": 0.2485,
+        "be_hurt_by_hero_total_rate": 0.2075,
+        "skin_id": 5
+      },
+      {
+        "team_id": "10001",
+        "team_name": "重庆狼队",
+        "team_icon": "https://smhtv-pic.tga.qq.com/a85f1428dd1ef3eaeeb5e203f17b9b25.png",
+        "hero_id": 111,
+        "hero_name": "孙尚香",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/111.jpg",
+        "is_lose_mvp": 0,
+        "camp": 2,
+        "participation_rate": 50,
+        "is_mvp": 0,
+        "kill_num": 1,
+        "assist_num": 0,
+        "death_num": 1,
+        "gold": 7359,
+        "hurt_total": 204819,
+        "be_hurt_total": 17025,
+        "kda": 1,
+        "hurt_total_rate": 0.2683,
+        "be_hurt_total_rate": 0.0961,
+        "mvp_score": 4.6,
+        "actual_player_name": "重庆狼队.道崽",
+        "SummonerAbilityInfo": {
+          "summoner_ability_id": 80115,
+          "summoner_ability_name": "闪现",
+          "summoner_ability_rank": "LV.19解锁",
+          "summoner_ability_desc": "120秒CD：向指定方向位移一段距离",
+          "summoner_ability_icon": "https://res.edata.qq.com/sgame/static/images/summoner_ability/80115.jpg"
+        },
+        "BriefHeroSkillList": [
+          {
+            "skill_name": "活力迸发",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/111/11100.png"
+          },
+          {
+            "skill_name": "究极弩炮",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/111/11130.png"
+          },
+          {
+            "skill_name": "红莲爆弹",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/111/11120.png"
+          },
+          {
+            "skill_name": "翻滚突袭",
+            "skill_icon": "https://res.edata.qq.com/sgame/static/images/hero_skill/111/11110.png"
+          }
+        ],
+        "BriefEquipList": [
+          {
+            "equip_id": 1422,
+            "equip_name": "抵抗之靴",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1422.jpg",
+            "equip_desc_gain": "<p>+50物理防御<br>+100法术防御</p>",
+            "equip_desc_function": "<p>被动-神速：+50移动速度（所有鞋类装备的移速加成效果不叠加）<br>被动-坚韧：+25%韧性</p>"
+          },
+          {
+            "equip_id": 1133,
+            "equip_name": "无尽战刃",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1133.jpg",
+            "equip_desc_gain": "<p>+120物理攻击<br>+20%暴击率</p>",
+            "equip_desc_function": "<p>唯一被动-无尽：获得20%暴击效果，每2%暴击增加1%暴击效果，最多不超过50%</p>"
+          },
+          {
+            "equip_id": 1136,
+            "equip_name": "影刃",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1136.jpg",
+            "equip_desc_gain": "<p>+45物理攻击<br>+35%攻击速度<br>+20%暴击率<br>+7.5%移动速度</p>",
+            "equip_desc_function": "<p>唯一被动-暴风：普攻命中增加10%攻速和5%移速(持续3秒，暴击后效果均翻倍)</p>"
+          },
+          {
+            "equip_id": 1154,
+            "equip_name": "穿云弓",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1154.jpg",
+            "equip_desc_gain": "<p>+12%暴击率<br>+15%攻击速度</p>",
+            "equip_desc_function": ""
+          },
+          {
+            "equip_id": 1129,
+            "equip_name": "速击之枪",
+            "equip_icon": "https://res.edata.qq.com/sgame/static/images/equipment/1129.jpg",
+            "equip_desc_gain": "<p>+35物理攻击<br>+15%攻击速度</p>",
+            "equip_desc_function": ""
+          }
+        ],
+        "player_name": "道崽",
+        "player_icon": "https://smobatv-pic.tga.qq.com/4101b67573fad4c84180b905ab9f4ea7.png",
+        "symbol_ids": "1519+1519+1519+1519+1519+1519+1519+1519+1519+1519+2504+2504+2504+2504+2504+2504+2504+2504+2520+2520+3514+3514+3514+3514+3514+3514+3514+3514+3514+3514",
+        "position": 7,
+        "position_desc": "发育路",
+        "hurt_to_hero_total": 20164,
+        "be_hurt_by_hero_total": 12630,
+        "hurt_to_hero_total_rate": 0.1574,
+        "be_hurt_by_hero_total_rate": 0.0841,
+        "skin_id": 5
+      }
+    ],
+    "bp_list": [
+      {
+        "camp": 1,
+        "is_ban_or_pick": 0,
+        "hero_id": 140,
+        "hero_name": "关羽",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/140.jpg",
+        "position": 0
+      },
+      {
+        "camp": 2,
+        "is_ban_or_pick": 0,
+        "hero_id": 525,
+        "hero_name": "鲁班大师",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/525.jpg",
+        "position": 0
+      },
+      {
+        "camp": 1,
+        "is_ban_or_pick": 0,
+        "hero_id": 194,
+        "hero_name": "苏烈",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/194.jpg",
+        "position": 0
+      },
+      {
+        "camp": 2,
+        "is_ban_or_pick": 0,
+        "hero_id": 172,
+        "hero_name": "蚩奼",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/172.jpg",
+        "position": 0
+      },
+      {
+        "camp": 1,
+        "is_ban_or_pick": 1,
+        "hero_id": 509,
+        "hero_name": "盾山",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/509.jpg",
+        "position": 0
+      },
+      {
+        "camp": 2,
+        "is_ban_or_pick": 1,
+        "hero_id": 186,
+        "hero_name": "太乙真人",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/186.jpg",
+        "position": 1
+      },
+      {
+        "camp": 2,
+        "is_ban_or_pick": 1,
+        "hero_id": 312,
+        "hero_name": "沈梦溪",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/312.jpg",
+        "position": 0
+      },
+      {
+        "camp": 1,
+        "is_ban_or_pick": 1,
+        "hero_id": 128,
+        "hero_name": "曹操",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/128.jpg",
+        "position": 2
+      },
+      {
+        "camp": 1,
+        "is_ban_or_pick": 1,
+        "hero_id": 155,
+        "hero_name": "艾琳",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/155.jpg",
+        "position": 1
+      },
+      {
+        "camp": 2,
+        "is_ban_or_pick": 1,
+        "hero_id": 111,
+        "hero_name": "孙尚香",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/111.jpg",
+        "position": 2
+      },
+      {
+        "camp": 2,
+        "is_ban_or_pick": 0,
+        "hero_id": 157,
+        "hero_name": "不知火舞",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/157.jpg",
+        "position": 0
+      },
+      {
+        "camp": 1,
+        "is_ban_or_pick": 0,
+        "hero_id": 120,
+        "hero_name": "白起",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/120.jpg",
+        "position": 0
+      },
+      {
+        "camp": 2,
+        "is_ban_or_pick": 0,
+        "hero_id": 531,
+        "hero_name": "镜",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/531.jpg",
+        "position": 0
+      },
+      {
+        "camp": 1,
+        "is_ban_or_pick": 0,
+        "hero_id": 503,
+        "hero_name": "狂铁",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/503.jpg",
+        "position": 0
+      },
+      {
+        "camp": 2,
+        "is_ban_or_pick": 0,
+        "hero_id": 533,
+        "hero_name": "阿古朵",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/533.jpg",
+        "position": 0
+      },
+      {
+        "camp": 1,
+        "is_ban_or_pick": 0,
+        "hero_id": 527,
+        "hero_name": "蒙恬",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/527.jpg",
+        "position": 0
+      },
+      {
+        "camp": 2,
+        "is_ban_or_pick": 1,
+        "hero_id": 538,
+        "hero_name": "云缨",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/538.jpg",
+        "position": 3
+      },
+      {
+        "camp": 1,
+        "is_ban_or_pick": 1,
+        "hero_id": 197,
+        "hero_name": "弈星",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/197.jpg",
+        "position": 3
+      },
+      {
+        "camp": 1,
+        "is_ban_or_pick": 1,
+        "hero_id": 178,
+        "hero_name": "杨戬",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/178.jpg",
+        "position": 4
+      },
+      {
+        "camp": 2,
+        "is_ban_or_pick": 1,
+        "hero_id": 537,
+        "hero_name": "司空震",
+        "hero_icon": "https://res.edata.qq.com/sgame/static/images/hero/537.jpg",
+        "position": 4
+      }
+    ],
+    "video_list": [
+      {
+        "video_channel": "tencent_video",
+        "video_id": "r3195y6nm60",
+        "video_url": "https://v.qq.com/x/page/r3195y6nm60.html"
+      }
+    ]
+  }
+}
