@@ -126,6 +126,18 @@ def load_one_battle(cursor, data: dict, match_id: int) -> None:
         ),
     )
 
+    # let user know that battle is ignored
+    if cursor.rowcount == 0:
+        print(
+            f"Battle {battle['battle_number']} "
+            f"({battle['battle_id']}) already exists — skipped."
+        )
+    else:
+        print(
+            f"Battle {battle['battle_number']} "
+            f"({battle['battle_id']}) inserted."
+        )
+
     # Insert player stats
     for stat in player_stats:
         player_id = player_id_map[stat["player_name"]]
