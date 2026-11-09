@@ -12,6 +12,18 @@ from parse_battle_detail import (
     parse_player_stats_rows,
 )
 
+# Helper for caulculating best_of
+def infer_best_of(win_counts: dict[int, int]) -> int | None:
+    if not win_counts:
+        return None
+
+    winning_score = max(win_counts.values())
+
+    if winning_score == 0:
+        return None
+
+    return 2 * winning_score - 1
+
 # Helper for extracting date from match id
 def get_match_date(match_id: int) -> str:
     match_id_str = str(match_id)
@@ -215,13 +227,19 @@ def load_match(cursor, json_files: list[Path], match_id: int) -> None:
         winner_team_id = battle_info["battle"]["winner_team_id"]
         win_counts[winner_team_id] += 1
 
+    # Determine best of
+    best_of = infer_best_of(win_counts)
+
     # Determine BO5 match winner
     match_winner_id = None
 
-    for team_id, wins in win_counts.items():
-        if wins >= 3:
-            match_winner_id = team_id
-            break
+    if best_of is not None:
+        wins_needed = best_of // 2+1
+
+        for team_id, wins in win_counts.items():
+            if wins >= wins_needed:
+                match_winner_id = team_id
+                break
 
     if match_winner_id is None:
         raise ValueError(
@@ -283,7 +301,7 @@ def load_match(cursor, json_files: list[Path], match_id: int) -> None:
             team_a_id,
             team_b_id,
             match_winner_id,
-            5,
+            best_of,
             None,
         ),
     )
