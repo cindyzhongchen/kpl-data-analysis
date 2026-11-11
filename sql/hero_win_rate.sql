@@ -1,7 +1,9 @@
 SELECT 
     ps.hero_id,
     h.hero_name,
-    ROUND(ps.win * 100 / COUNT(*),1) AS win_rate
+    ROUND(SUM(ps.win) * 100 / COUNT(*),2) AS win_rate,
+    SUM(ps.win) AS win_counts,
+    COUNT(*) AS appearances
 FROM player_stats ps
 JOIN heroes h 
 ON ps.hero_id = h.hero_id

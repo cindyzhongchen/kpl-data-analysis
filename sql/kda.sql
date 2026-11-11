@@ -1,6 +1,10 @@
 SELECT 
+    ps.battle_id,
     p.player_id,
     p.player_name,
+    ps.kills,
+    ps.assists,
+    ps.deaths,
     (ps.kills + ps.assists) * 1.0 / CASE 
         WHEN ps.deaths = 0 THEN 1
         ELSE ps.deaths
